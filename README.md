@@ -1,8 +1,8 @@
-# Core Resource
+## Core Resource
 
 http://github.com/crafterm/CoreResource
 
-## Description
+### Description
 
 Core Resource is an experimental Core Data backed structured webservice client, useful for consuming data oriented webservices, and communicating with 
 Rails applications via REST similar to Active Resource for Rails applications.
@@ -18,7 +18,7 @@ instance, associating the child and parent during processing.
 If an existing Core Data model instance exists (identified via an duplicate associated 'id' field) then it's used as-is rather than created, allowing you to build up a local model
 structure matching your remote structure, including 1-many relationships where the associated object is referenced from many child objects.
 
-## Example
+### Example
     // Assume a Core Data model containing Wine, Vineyard and Region entities, and a Rails application with matching model objects with associations
 
     NSArray * wineJSON = [json JSONValue]; // fetched remotely using RAService, or NSURLRequest directly
@@ -43,7 +43,7 @@ structure matching your remote structure, including 1-many relationships where t
     
 Please look at the Tests directory for a complete example including the core data model described above, etc.
 
-## Limitations
+### Limitations
 
 Core Resource is currently a proof of concept that only supports reading of content (no update or create operations just yet), those operations will be added soon. It also
 requires that you build a local Core Data model structure following the relationships defined in your remote Rails app - which hence currently works best when you control 
@@ -52,7 +52,7 @@ both server and client. After some more testing and use, I'll definitely be look
 If you have any comments, thoughts, feedback or ideas please feel free to contact me at Marcus Crafter <crafterm@redartisan.com>.
 
 
-## LICENSE:
+### LICENSE:
 
 (The MIT License)
 

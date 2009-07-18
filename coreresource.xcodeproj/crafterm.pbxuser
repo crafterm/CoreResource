@@ -5,7 +5,7 @@
 		activeSDKPreference = iphonesimulator3.0;
 		activeTarget = D2AAC07D0554694100DB518D /* coreresource */;
 		addToTargets = (
-			BFADB871101163B700D66ECB /* LogicTests */,
+			D2AAC07D0554694100DB518D /* coreresource */,
 		);
 		breakpoints = (
 		);

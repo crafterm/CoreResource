@@ -70,6 +70,7 @@
 		BFD0067510119E8900DE9BA3 /* Wine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wine.m; sourceTree = "<group>"; };
 		BFD0067610119E8900DE9BA3 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
 		BFD0067710119E8900DE9BA3 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		BFD006BC1011AD3C00DE9BA3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libcoreresource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcoreresource.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +109,7 @@
 		0867D691FE84028FC02AAC07 /* coreresource */ = {
 			isa = PBXGroup;
 			children = (
+				BFD006BC1011AD3C00DE9BA3 /* README.md */,
 				BFADB7331010979A00D66ECB /* Classes */,
 				BFADB7341010979A00D66ECB /* Tests */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
